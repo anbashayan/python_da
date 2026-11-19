@@ -14,3 +14,9 @@ if 'CV212' in promo_message:
     print("Offer applied")
 else:
     print('Offer Denied')
+
+#to find position of some word
+
+feedback = "the food was awesome and delicious"
+
+print("Position is ", feedback.find("awesome"))
